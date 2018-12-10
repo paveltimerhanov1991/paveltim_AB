@@ -1,0 +1,94 @@
+@media only screen and (min-width:768px) and (max-width:1199px){
+.container{padding:0 15px;}
+.side-bar{padding-left:0;}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+.container{padding:0 15px;}
+.home-slider{height:550px;}
+.testimonial .owl-carousel{padding:0 25px;}
+.testimonial .owl-carousel .owl-nav .owl-prev{left:0px;margin:0}
+.testimonial .owl-carousel .owl-nav .owl-next{right:0px;margin:0}
+}
+
+@media only screen and (min-width:768px) and (max-width: 990px){
+.container{padding:0 15px;}
+.navbar-toggle{display: block;}
+.home-slider{height:500px;}
+
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px){
+.toggle-mobile{right:30px;}
+
+}
+
+@media only screen and (max-width: 480px){
+.toggle-mobile{right:30px;     top: 4px;}
+.wpcf7-form p:nth-child(2){width: 100%;  margin-right: 0px;}
+.wpcf7-form p:nth-child(3){width: 100%;  margin-right: 0px;}
+.wpcf7-form p:nth-child(4){width: 100%;  margin-right: 0px;}
+.mobile-menu .logo-img img{display: initial;}
+.services-box h6{font-size:15px;}
+.services-box p {font-size: 12px;    line-height: 21px;}
+a.added_to_cart.wc-forward {margin-top: 10px;}
+.five-col {width: 100% !important;}
+.logo-title{padding-left:15px;}
+#carousel-gallery .owl-nav{display:block;}
+#carousel-gallery .owl-prev, .owl-next i{font-size:15px;}
+#carousel-gallery .owl-nav {top: 39%;}
+#carousel-gallery .owl-next {background-color: rgba(128, 111, 111, 0.43);}
+#carousel-gallery .owl-prev  {background-color: rgba(128, 111, 111, 0.43);}
+#carousel-gallery .owl-dots{display:none;}
+.mobile-3 .owl-nav.disabled {top: 23% !important;}
+
+
+
+
+}
+
+@media only screen and (max-width:991px){
+.header{padding:3px 0 0 0;}
+}
+
+@media only screen and (max-width:767px){
+.container{padding:0 15px;}
+.logo{margin:10px 15px;}
+.home-slider{height:450px;}
+.slider-content h1{font-size:25px; margin-bottom:15px;}
+.slider-content p{font-size:16px; margin-bottom:20px;}
+.flex-direction-nav{display:none;}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{}
+.call-to-action{text-align:center;}
+.call-to-action .call-btn{text-align: center;}
+.contact-form .field,.comment-form .field{margin-bottom:0px;}
+.contact-form input, .contact-form select, .contact-form textarea,.comment-form input,.comment-form textarea{margin-bottom:20px;}
+.section-row{padding:50px 0;}
+.side-bar{padding-left:0; padding-top:40px;}
+img{max-width:100%; display:block; height:auto;}
+.toggle-mobile, .cross{display:block;}
+.collapse{display:block;}
+.navbar ul{display: none;}
+.mobile-menu .logo-img img{display: initial;}
+
+}
+
+@media only screen and (max-width:991px){
+.navbar-header{float:none;}
+.navbar{margin:0; border:0;}
+.navbar-toggle{background:#d5402b;     display: none;}
+.navbar-toggle .icon-bar{background:#fff;}
+.navbar-toggle:active,.navbar-toggle:focus,.navbar-toggle:hover{background:#d5402b; color:#fff;}
+.navbar ul{margin:7.5px -15px;float:none; display: none;}
+.navbar ul li{display:block;}
+.navbar ul li:hover > ul{display:block; margin:0;}
+.navbar ul li ul{display:none; position:relative; width:100%; margin:0;background:none; box-shadow:none;}
+.navbar ul li a{color:#2d2d2d;}
+.navbar ul li a:hover,.navbar ul li a:focus,.navbar ul li.active a,.navbar ul li ul li a:hover{color:#fff; background:#d5402b;}
+.main-nav .navbar-nav ul li a{padding:10px 25px;}
+.owl-theme .owl-nav{display:none;}
+.toggle-mobile, .cross{display:block; right: 25px;}
+.collapse{display:block;}
+.navbar ul{display: none;}
+
+}
